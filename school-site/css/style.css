@@ -101,9 +101,10 @@ html {
 }
 
 h1, h2 {
-    font-family: josefinslab, Georgia, Serif;
+    font-family: josefinlab, Georgia, serif;
     letter-spacing: 0.125rem;
-}
+}  
+ 
 
 h1 {
 font-size: 3.75rem;
@@ -176,9 +177,6 @@ list-style-type: lower-alpha;
 text-transform: uppercase;
 
 }
-
-
-
 
 
 /* Navigation Menu */
