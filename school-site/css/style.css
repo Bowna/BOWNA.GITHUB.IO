@@ -134,45 +134,48 @@ li {
 }
 
 figcaption {
-
+font-size: 00.75rem;
+margin-bottom: 2rem;
 }
 
 
 /* Link Styling */
 
 a {
-
+outline: none;
 
 }
 
 a:link, a:visited {
-
+color: #33658A;
 
 }
 
 a:focus, a:hover {
-
-
-}
-
-ul {
+text-decoration: none;
 
 }
 
-ol {
-
-
-}
-
-
-.long-list {
-
-
-}
 
 
 /* List Styling */
 
+ul {
+margin: 1rem 0;
+list-style-type: square;
+
+}
+
+ol {
+margin: 1rem 0;
+list-style-type: lower-alpha;
+}
+
+
+.long-list {
+text-transform: uppercase;
+
+}
 
 
 
@@ -181,11 +184,19 @@ ol {
 /* Navigation Menu */
 
 nav {
-
+padding-left: 0;
+margin-top: 0.25rem;
 }
 
 nav a {
-
+text-decoration: none;
+display: inline-block;
+width: 100%;
+line-height: 3;
+text-align: center;
+font: 1.125rem;
+margin: bottom 1.5em;
+border: 0.0625rem solid #33658A;
 }
 
 nav a:focus, nav a:hover {
