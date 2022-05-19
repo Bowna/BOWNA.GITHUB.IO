@@ -80,10 +80,10 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-font-family: montserrat;
-src: url(/fonts/montserrat-regular.ttf) format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: montserrat;
+    src: url(/fonts/montserrat-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -96,12 +96,12 @@ font-style: normal;
 /* Typography Styles */
 
 html {
-font-family: montserrat; Arial, sans-serif;
+    font-family: montserrat, sans-serif;
 
 }
 
 h1, h2 {
-font-family: josefinslab; Georgia, Serif;
+    font-family: josefinslab, Georgia, Serif;
 letter-spacing: 0.125rem;
 }
 
@@ -200,18 +200,20 @@ border: 0.0625rem solid #33658A;
 }
 
 nav a:focus, nav a:hover {
-
+    color: #fff;
+    background-color: #33658A;
 }
 
 nav a:active {
 
+        color: #fff;
+        background-color: #000;
 }
-
 
 /* Footer Styles */
 
 footer {
-
+text-align: center;
 }
 
 
